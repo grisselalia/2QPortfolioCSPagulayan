@@ -9,63 +9,129 @@
 body {
 background-color: #bad8f5;
 }
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: rgb(233, 245, 255);
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
 </style>
 </head>
 <body>
+    <div class="header">
+    <a class="logo" style="color: rgb(162, 212, 255)">Grissel's Fav AOT Character</a>
+    <div class="header-right">
+    <a style="color: #4375aa; font-size: 20px;" href="../index.html">Home .ᐟ</a >
+    <a style="color: #4375aa; font-size: 20px;" href="https://eliana-quodala.github.io/2QPortfolioCSQuodala/public/eli's%20website.html">Fav AOT Character of Eli .ᐟ</a>
+    <a style="color: #4375aa; font-size: 20px;" href="https://lumiiiii1.github.io/2QPortfolioCSReyes/public/Lumi's_Website.html">Fav AOT Character of Lumi .ᐟ</a>  </div>
+    </div>
     <center>
-    <h1 style="color:#5390c9; font-size: 48px;">ᰔ ⊹˚₊ Armin Arlert ₊˚⊹ ᰔ</h1>
-    <p style="color: aliceblue; font-size: 36px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
-    <img src = "https://i.pinimg.com/originals/b2/9e/c1/b29ec1c6e6bc8598b64a57d3f37ab172.jpg" width = "350" height= "350" style="border: 7px double goldenrod; margin: 7px;">
-    <p style="color: aliceblue; font-size: 36px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
-    <p style="color: #4375aa; font-size: 25px">Navigation ꩜ .ᐟ</p>
-    <p style="color: aliceblue; font-size: 25px">°❀⋆.ೃ࿔*:･</p>
-    <p></p>
-    <a style="color: #4375aa; font-size: 20px;" href="../index.html">Home</a >
-    <p></p>
-    <a style="color: #4375aa; font-size: 20px;" href="">Fav AOT Character of Eli </a>
-    <p></p>
-    <a style="color: #4375aa; font-size: 20px;" href="">Fav AOT Character of Lumi !</a>
-    <p></p>
-    <p></p>
-    <p style="color: aliceblue; font-size: 36px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/u6antWbUut0" style="border: 7px double goldenrod; margin: 7px;"></iframe>
-    <p style="color: aliceblue; font-size: 36px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
-    <h2 style="color:#5390c9; font-size: 32px;">information about him ꉂ(˵˃ ᗜ ˂˵)</h2>
-    <p style="color: aliceblue; font-size: 32px;">𓆝 𓆟 𓆞 𓆝 𓆟</p>
-    <p style ="color:#bad8f5; font-size: 20px;">Armin Arlert </p>
-    <p></p>
-    <h2 style="color:#5390c9; font-size: 32px">Armin Highlights ₍₍⚞(˶˃ ꒳ ˂˶)⚟⁾⁾</h2>
-    <table border=2 style="width: 800px; height: 600px; border: 7px double goldenrod; margin: 7px;">
-    <tr style="color:#5390c9; font-size: 30px">
+
+    <h1 style="color:#5390c9; font-size: 36px; margin-bottom:0px;">ᰔ ⊹˚₊ Armin Arlert ₊˚⊹ ᰔ</h1>
+        <p style="color: aliceblue; font-size: 20px; margin-top:0px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+    <img src = "https://i.pinimg.com/originals/b2/9e/c1/b29ec1c6e6bc8598b64a57d3f37ab172.jpg" width = "350" height= "350" style="border: 7px double rgb(243, 224, 178); margin: 7px;">
+
+        <p style="color: aliceblue; font-size: 20px; margin-bottom:0px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/u6antWbUut0" style="border: 7px double rgb(243, 224, 178); margin: 7px;"></iframe>
+        <p style="color: aliceblue; font-size: 20px; margin-top:0px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+
+    <h2 style="color:#5390c9; font-size: 24px; margin-bottom: 0px">information about him ꉂ(˵˃ ᗜ ˂˵)</h2>
+            <p style="color: aliceblue; font-size: 24px; margin-top: 0px">𓆝 𓆟 𓆞 𓆝 𓆟</p>
+        <p style ="color:#4375aa; font-size: 18px; max-width: 800px;">Armin Arlert, born on November 3rd in the Shiganshina District, is  considered as 1 of the 2 deuteragonists in Attack on Titan. He's the best friend of Eren Yeager (the protagonist) and Mikasa Ackerman. After the titans attacked and broke through Wall Maria, he [once he was of age] went on to take part in the 104th Training Corps to train for the Military. Although he did not make it to the top 10 of the class, he still graduated and joined the Survey Corps alongside his best friends.</p>
+        <p></p>
+        <p style ="color:#4375aa; font-size: 18px; max-width: 800px;">He is considered as one of the physically weakest soldiers of the 104th Training Corps, defeating a total of [at least] 2 titans on his own. His incredible intelligence and strategic thinking, however, makes him a very valuable asset to them. With his wits, he was appointed by Hange Zoe (the commander before him) as the 15th and current Commander of the Survey Corps. Not only is he the Commander, but he is also the bearer of the Colossal Titan.</p>
+        <p></p>
+        <p style ="color:#4375aa; font-size: 18px; max-width: 800px;">Armin has a kind heart and is a generally emotionally sensitive and empathetic person, however, he strongly believes that decisions should not be blinded by emotions. He views things in an analytical way and uses logic to make decisions. He is also loyal and selfless and is willing to sacrifice himself if it meant the betterment of humanity. He's overall a very complex character that is both sweet and smart.</p>
+         <p style="color: aliceblue; font-size: 24px; margin-top: 0px">𓆝 𓆟 𓆞 𓆝 𓆟</p>
+
+    <h2 style="color:#5390c9; font-size: 24px;">Armin Highlights ₍₍⚞(˶˃ ꒳ ˂˶)⚟⁾⁾</h2>
+         <p style="color: aliceblue; font-size: 20px; margin-top:0px">⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+    <table border=2 style="width: 1200px; height: 600px; border: 7px double rgb(243, 224, 178); margin: 7px; background-color:rgb(233, 245, 255);">
+    
+    <tr style="color:#4375aa; font-size: 22px">
         <th>Episode</th>
         <th>Event</th>
-        <th>My Fav Line(s)</th>
+        <th>My Fav Line</th>
     </tr>
-    <tr>
-        <td style="text-align: center; color: aliceblue; font: bold; font-size: 20px">S3 Ep18</td>
-        <td style="text-align: center; color: aliceblue; font: bold; font-size: 20px">Armin inherits the Colossal Titan</td>
-        <td style="text-align: center; color: aliceblue; font: bold; font-size: 20px">Eren: "He revealed Annie's identity. It was Armin who came up with the idea of moving at night! The only reason we uncovered Reiner's hiding spot... and the only reason we defeated Bertholdt... was all because of Armin! The one who's gonna save humanity isn't me or the commander! It's Armin!"</td>
+
+    <tr style="text-align: center; color: #5390c9; font: bold; font-size: 20px">
+        <td>S1 Ep11 (E11 Icon: Battle of Trost District, Part 7)</td>
+        <td>Armin devises the plan to use Eren's [titan's] hardening ability to seal Wall Rose</td>
+        <td>Eren: "I told you before, remember? You have the ability to make the right call."</td>
     </tr>
-    <tr>
-        <td style="text-align: center; color: aliceblue; font: bold; font-size: 20px">S4, Ep27</td>
-        <td style="text-align: center; color: aliceblue; font: bold; font-size: 20px">Armin gets appointed as the new commander of the Survey Corps by Hange Zoe</td>
-        <td style="text-align: center; color: aliceblue; font: bold; font-size: 20px">Row 2, Cell 3</td>
+
+    <tr style="text-align: center; color: #5390c9; font: bold; font-size: 20px">
+        <td>S3 Ep2 (E39 Pain)</td>
+        <td>Armin shoots a man to save Jean</td>
+        <td>Levi: "Armin. Thanks to you getting blood on your hands, nobody in our squad ended up dead. Thank you."</td>
     </tr>
-    <tr>
-        <td>Row 3, Cell 1</td>
-        <td>Row 3, Cell 2</td>
-        <td>Row 3, Cell 3</td>
+
+    <tr style="text-align: center; color: #5390c9; font: bold; font-size: 20px">
+        <td>S3 Ep18 (E55 Midnight Sun)</td>
+        <td>Armin inherits the Colossal Titan</td>
+        <td>Eren: "He revealed Annie's identity. It was Armin who came up with the idea of moving at night! The only reason we uncovered Reiner's hiding spot... and the only reason we defeated Bertholdt... was all because of Armin! The one who's gonna save humanity isn't me or the commander! It's Armin!"</td>
     </tr>
-    <tr>
-        <td>Row 4, Cell 1</td>
-        <td>Row 4, Cell 2</td>
-        <td>Row 4, Cell 3</td>
+
+    <tr style="text-align: center; color: #5390c9; font: bold; font-size: 20px">
+        <td>S3 Ep22 (E59 The Other Side of the Wall)</td>
+        <td>Armin experiences the ocean for the first time</td>
+        <td>Armin: "Look! I told you, Eren! A salt lake so big that merchants could spend their whole lives and still not get all the salt. The stuff I talked about wasn't wrong after all!</td>    
     </tr>
-    <tr>
-        <td>Row 5, Cell 1</td>
-        <td>Row 5, Cell 2</td>
-        <td>Row 5, Cell 3</td>
+
+    <tr style="text-align: center; color: #5390c9; font: bold; font-size: 20px">
+        <td>S4 Ep30 (E89 The Wings of Freedom)</td>
+        <td>Armin gets appointed as the new commander of the Survey Corps by Hange Zoe</td>
+        <td>Hange: "Armin Arlert, you are now the 15th commander of the Scout Regiment. The nature demanded of the commander of the Scout Regiment is to never give up on trying to understand. No one is better suited than you."</td>
     </tr>
+
     </table>
 </center>
 </body>
