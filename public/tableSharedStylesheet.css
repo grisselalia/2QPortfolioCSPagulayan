@@ -1,0 +1,91 @@
+   body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: url('https://i.pinimg.com/736x/fe/a1/28/fea128fdbec6b711bb17c26ddbba1f1f.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    header {
+      border-radius: 20px;
+      margin-top: 25px;
+      padding: 25px 50px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+
+    header h1 {
+      font-size: 2.8em;
+    }
+
+    header h2 {
+      font-size: 1.2em;
+      font-style: italic;
+    }
+
+    nav {
+      margin: 25px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5b3a3a;
+      background-color: #f8d7da;
+      padding: 10px 20px;
+      border-radius: 12px;
+      margin: 6px;
+      transition: all 0.3s;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #e59aa5;
+      color: white;
+    }
+
+    nav a:visited {
+      color: #7a5555;
+    }
+
+    .content {
+      background-color: rgba(255, 248, 250, 0.9);
+      border-radius: 25px;
+      padding: 40px;
+      margin: 20px;
+      width: 80%;
+      max-width: 900px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    }
+
+    .content p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      margin: 25px auto;
+      background-color: #fff0f5;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    }
+
+    footer {
+      margin-top: 35px;
+      padding: 20px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    footer a {
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
